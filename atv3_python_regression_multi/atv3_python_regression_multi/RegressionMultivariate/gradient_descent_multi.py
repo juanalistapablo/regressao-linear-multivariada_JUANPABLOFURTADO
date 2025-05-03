@@ -1,19 +1,19 @@
 # Functions/gradient_descent_multi.py
-"""
+
 @file gradient_descent_multi.py
 @brief Performs gradient descent for multivariate regression.
 @details Este módulo contém uma função para executar o gradiente descendente
           para regressão linear multivariada, atualizando os parâmetros θ
           iterativamente para minimizar a função de custo.
 @author Your Name <your.email@example.com>
-"""
+
 
 import numpy as np
 from RegressionMultivariate.compute_cost_multi import compute_cost_multi
 
 
 def gradient_descent_multi(X, y, theta, alpha, num_iters):
-    """
+    
     Executa o gradiente descendente para aprender os parâmetros θ.
 
     Atualiza θ realizando num_iters passos de gradiente com taxa de aprendizado α usando a fórmula:
@@ -33,7 +33,7 @@ def gradient_descent_multi(X, y, theta, alpha, num_iters):
     :return (tuple): Uma tupla com 2 elementos contendo:
         - theta (ndarray): Parâmetros aprendidos (shape: n+1,).
         - J_history (ndarray): Custo em cada iteração (shape: num_iters,).
-    """
+    
     # obtenha o número de exemplos de treinamento
     m = 
     
@@ -72,7 +72,7 @@ def gradient_descent_multi(X, y, theta, alpha, num_iters):
 
 
 def gradient_descent_multi_with_history(X, y, theta, alpha, num_iters):
-    """
+    
     Executa o gradiente descendente para aprender os parâmetros θ.
 
     Atualiza θ realizando num_iters passos de gradiente com taxa de aprendizado α usando a fórmula:
@@ -93,7 +93,7 @@ def gradient_descent_multi_with_history(X, y, theta, alpha, num_iters):
         - theta (ndarray): Parâmetros aprendidos (shape: n+1,).
         - J_history (ndarray): Custo em cada iteração (shape: num_iters,).
         - theta_history (ndarray): Histórico dos parâmetros θ em cada iteração (shape: num_iters × n+1).
-    """
+    
     # obtenha o número de exemplos de treinamento
     m = 
 
