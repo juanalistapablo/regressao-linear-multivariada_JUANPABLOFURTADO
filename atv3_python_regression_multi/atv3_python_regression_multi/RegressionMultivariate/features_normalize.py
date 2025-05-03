@@ -1,17 +1,17 @@
 # Functions/feature_normalize.py
-"""
+
 @file features_normalizes.py
 @brief Funções para normalização de features em datasets.
 @details Este módulo contém funções para normalizar as features de um dataset
           utilizando diferentes abordagens, como média e desvio padrão, ou
           mínimo e máximo.
 @author Your Name <your.email@example.com>
-"""
+
 import numpy as np
 
 
 def features_normalize_by_std(X):
-    """
+    
     Normaliza as features de um dataset para média zero e desvio padrão unitário.
     Matematicamente, a formula utilizada é:
         X_norm = (X - mu) / sigma
@@ -25,26 +25,27 @@ def features_normalize_by_std(X):
         - X_norm (ndarray): Matriz normalizada.
         - mu (ndarray): Vetor com as médias de cada feature.
         - sigma (ndarray): Vetor com os desvios padrão de cada feature.
-    """
+    
     # Calcula a média de cada feature (coluna)
-    mu = np.mean(X, axis=0)
+    mu = 
 
     # Calcula o desvio padrão de cada feature (coluna)
-    sigma = np.std(X, axis=0, ddof=1)
+    sigma = 
     
     # Normaliza as features subtraindo a média e dividindo pelo desvio padrão
     # Verifica se sigma é zero (o que indicaria que todas as amostras têm o mesmo valor na feature)
     # Se sigma for zero, substitui por 1 para evitar divisão por zero
     # Isso garante que a normalização não cause problemas numéricos
     # e que a feature não seja eliminada do conjunto de dados
-    sigma[sigma == 0] = 1
+    if np.any(sigma == 0):
+        sigma[sigma == 0] = 1
     # Normaliza as features
-    X_norm = (X - mu) / sigma
+    X_norm = 
     return X_norm, mu, sigma
 
 
 def features_normalizes_by_min_max(X):
-    """
+    
     Normaliza as features de um dataset para o intervalo [0, 1] utilizando o mínimo e o máximo.
     Matematicamente, a formula utilizada é:
         X_norm = (X - min) / (max - min)
@@ -58,11 +59,11 @@ def features_normalizes_by_min_max(X):
         - X_norm (ndarray): Matriz normalizada.
         - min (ndarray): Vetor com os valores mínimos de cada feature.
         - max (ndarray): Vetor com os valores máximos de cada feature.
-    """
+    
     # Calcula o mínimo de cada feature (coluna)
-    min = np.min(X, axis=0)
+    min = 
     # Calcula o máximo de cada feature (coluna)
-    max = np.max(X, axis=0)
+    max = 
     # Normaliza as features subtraindo o mínimo e dividindo pela diferença entre máximo e mínimo
     # Verifica se max - min é zero (o que indicaria que todas as amostras têm o mesmo valor na feature)
     # Se max - min for zero, substitui por 1 para evitar divisão por zero
@@ -71,5 +72,5 @@ def features_normalizes_by_min_max(X):
     if np.any(max - min == 0):
         max[min == max] = 1
     # Normaliza as features
-    X_norm = (X - min) / range_vals
+    X_norm = 
     return X_norm, min, max
