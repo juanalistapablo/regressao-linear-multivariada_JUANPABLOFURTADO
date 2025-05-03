@@ -8,9 +8,9 @@ from pathlib import Path
 
 
 def create_venv(env_name="regressao-linear-ex1"):
-    """
+    
     Cria um ambiente virtual com o nome especificado.
-    """
+
     import venv
 
     print(f"🔧 Criando ambiente virtual '{env_name}'...")
@@ -20,9 +20,9 @@ def create_venv(env_name="regressao-linear-ex1"):
 
 
 def install_requirements(env_name="regressao-linear-ex1", req_file="REQUIREMENTS.txt"):
-    """
+    
     Instala os pacotes do arquivo REQUIREMENTS.txt dentro do ambiente virtual.
-    """
+    
     if os.name == "nt":
         pip_path = os.path.join(env_name, "Scripts", "pip.exe")
         activate_cmd = f".\\{env_name}\\Scripts\\activate && python ex1.py"
