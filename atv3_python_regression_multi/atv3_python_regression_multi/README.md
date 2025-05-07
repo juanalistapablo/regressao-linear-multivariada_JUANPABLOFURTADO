@@ -10,7 +10,8 @@
 ### Engenharia da Computação  
 ### Disciplina: EECP0053 – **Tópicos em Engenharia da Computação II – Fundamentos de Redes Neurais**  
 **Discente :** Juan Pablo Furtado Mondego Macedo 
-**E-mail:** <thales.levi@ufma.br> / <thales.l.a.valente@gmail.com>  
+
+**E-mail:** <juan.mondego@discente.ufma>   
 **Semestre:** 2025.1  
 
 ---
@@ -57,7 +58,7 @@ Objetivos específicos:
 ## 🗂️ Estrutura Sugerida do Repositório
 
 ```
-regressao-linear-multivariada_<SeuNome>/
+regressao-linear-multivariada_<JUANPABLOFURTADO>/
 │
 ├─ Data/
 │   └─ ex1data2.txt
@@ -105,74 +106,17 @@ Todos os gráficos serão salvos em `Figures/`. Renomeie-os de forma descritiva 
 
 ---
 
-## ✍️ Relatório (formato ABNT)
 
-Estrutura sugerida (não obrigatória):
-
-1. **Introdução** – problema, propósito do experimento  
-2. **Metodologia** – descrição dos métodos (GD, NE) e das estratégias de normalização  
-3. **Resultados** – inserção dos gráficos (com legendas)  
-4. **Discussão** – interpretação dos achados, comparação de custo, tempo, robustez  
-5. **Conclusões** – principais lições sobre escala das features, preferências de otimização  
-6. **Referências** – cite o material de apoio utilizado  
-
-> Dica: use subtítulos para separar GD vs NE, z‑score vs min‑max, e _sem normalização_.
-
----
-
-## 💡 Boas Práticas de Commit (**Bônus**)
-
-Bônus extras serão concedidos pelo uso consistente dos *commit types* abaixo:
-
-| Tipo      | Descrição                                                                            |
-|-----------|---------------------------------------------------------------------------------------|
-| **feat**  | Nova funcionalidade ou implementação significativa                                    |
-| **fix**   | Correção de erros ou bugs                                                             |
-| **chore** | Manutenção geral (configuração, organização de arquivos)                             |
-| **docs**  | Atualizações ou adições em documentação                                               |
-| **style** | Mudanças de formatação (espaços em branco, indentação)                               |
-| **refactor** | Melhorias de código sem adicionar novas funcionalidades                           |
-| **test**  | Adição de testes automatizados                                                        |
-| **perf**  | Melhorias de desempenho                                                               |
-| **ci**    | Alterações em configuração de integração contínua                                     |
-| **build** | Modificações que afetam o processo de build ou dependências                           |
-
----
-
-## 📅 Submissão
-
-- **Prazo:** **04 / 05 / 2025** (23h59 BRT)  
-- Enviar **somente** o link do repositório Git no SIGAA.  
-- Commits devem refletir participação individual; integrantes sem contribuições significativas serão desconsiderados.  
-- Tentativas de burla via histórico de commits acarretam **nota zero** para todos os envolvidos.  
-- Submissões fora do prazo ou por outros meios serão ignoradas.
-
----
-
-## 📋 Critérios de Avaliação
-
-| Critério                                                                                | Peso |
-|-----------------------------------------------------------------------------------------|------|
-| Implementação correta dos módulos Python                                                | 2.5  |
-| Geração e qualidade dos gráficos (itens 1–4)                                            | 2.0  |
-| Experimentos comparativos (GD × NE × normalizações)                                     | 1.5  |
-| Análise escrita (clareza, profundidade, formatação ABNT)                                | 3.0  |
-| Organização do repositório, README e uso adequado de Git                                | 1.0  |
-
----
-
-**Boa sorte e bom estudo!** Qualquer dúvida, estou disponível por e‑mail ou em aula.
 
 ---
 
 ### Reconhecimentos e Direitos Autorais
 
 ```
-@autor:                [Seu Nome]
-@contato:              [Seu Email]
-@data última versão:   28/04/2025
+@autor:                [Juan Pablo Furtado Mondego]
+@contato:              [Juanmodego@gamil.com]
+@data última versão:   6/05/2025
 @versão:               2.0
-@outros repositórios:  [URLs opcionais]
 @Agradecimentos:       Universidade Federal do Maranhão (UFMA),
                        Prof. Dr. Thales Levi Azevedo Valente,
                        colegas de curso.
