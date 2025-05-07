@@ -9,7 +9,7 @@
 ## Universidade Federal do Maranhão  
 ### Engenharia da Computação  
 ### Disciplina: EECP0053 – **Tópicos em Engenharia da Computação II – Fundamentos de Redes Neurais**  
-**Professor:** Dr. Thales Levi Azevedo Valente  
+**Discente :** Juan Pablo Furtado Mondego Macedo 
 **E-mail:** <thales.levi@ufma.br> / <thales.l.a.valente@gmail.com>  
 **Semestre:** 2025.1  
 
